@@ -1,0 +1,31 @@
+/* 10px 12px 8px 13px => top right bottom left*/
+/* 10px 30px => (top+bottom) (left+right) */
+.first{
+    border: 2px solid crimson;
+    border-radius: 5px;
+    width: 400px;
+    padding: 20px 40px 20px 70px; 
+    margin: 10px 20px 40px 60px;
+    box-sizing: border-box; /* we use it to adjusting element with width. it help us when we increase padding*/
+}
+
+.second{
+    border: 2px solid crimson;
+    border-radius: 5px;
+    width: 400px;
+    padding: 30px 40px;
+    margin: 10px;
+  
+}
+
+.third{
+    border: 2px solid crimson;
+    border-radius: 5px;
+    width: 400px;
+}
+
+.fourth{
+    border: 2px solid crimson;
+    border-radius: 5px;
+    width: 400px;
+}
