@@ -1,0 +1,14 @@
+h2::after{
+    content: url("Bird.jpg");
+}
+
+h2::before{
+    content: url("Bird.jpg");
+}
+
+p::first-letter{
+    font-size: 30px;
+}
+p::first-line{
+    font-style: italic;
+}
