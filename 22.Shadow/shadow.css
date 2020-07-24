@@ -1,0 +1,31 @@
+/* box-shadow: ofset-x, ofset-y, blur-radius,spread-radius color */
+/* box-shadow: ofset-x, ofset-y, blur-radius color */
+/* box-shadow: ofset-x, ofset-y color */
+
+/* text-shadow is same */
+
+.container{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.box{
+  
+    background-color: rgb(55, 0, 255);
+    height: 200px;
+    width: 200px;
+    margin-right: 80px;
+    
+
+}
+#box1{
+    box-shadow: 10px 10px 10px 10px red ;
+}
+
+#box2{
+    box-shadow: 10px 10px 10px  red ;
+}
+#box3{
+    box-shadow: 10px 10px  red ;
+}
