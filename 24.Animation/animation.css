@@ -1,0 +1,45 @@
+.container{
+
+    background-color: cyan;
+    
+  
+
+}
+.box{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    animation-name: boxGame2;
+    animation-direction: reverse;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    /* animation-fill-mode: forwards;
+    animation-timing-function: ease-in; */
+    /* animation: animation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-fill-mode; */
+
+}
+@keyframes boxGame {
+    from{
+        width:80px;
+    }
+    to{
+        width: 500px;
+    }
+}
+
+@keyframes boxGame2{
+    0%{
+        margin-top: 0px;
+        margin-left:0px;
+    }
+    25%{
+        margin-top: 0px;
+        margin-left:300px;
+    }
+    50%{
+        margin-top: 300px;
+        margin-left: 300px;
+    }
+
+}
