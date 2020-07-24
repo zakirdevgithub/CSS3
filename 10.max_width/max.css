@@ -1,0 +1,13 @@
+.first{
+    border: 1px solid crimson;
+    width: 700px;
+    margin: 10px auto;
+}
+
+/* if we use max-width the width will change with device size */
+/* max-width maintain responsive */
+.second{
+    border: 1px solid black;
+    max-width: 700px;
+    margin: 10px auto;
+}
