@@ -1,0 +1,15 @@
+
+h2:first-child{
+    color:green;
+}
+h2:last-child{
+    color: red;
+}
+h2:nth-child(4){
+    color:yellow;
+}
+
+p:hover{
+    color: turquoise;
+    background-color: tomato;
+}
