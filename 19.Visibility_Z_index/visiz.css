@@ -1,0 +1,32 @@
+.box{
+    display: inline-block;
+}
+
+#box1{
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+}
+#box2{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    visibility: hidden;
+}
+#box3{
+    background-color: yellowgreen;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 50px;
+    z-index: 30;
+
+}
+#box4{
+    background-color: rebeccapurple;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    z-index: 40;
+  
+}
