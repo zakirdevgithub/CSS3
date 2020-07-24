@@ -1,0 +1,47 @@
+/* Remember: (marging-top, margin-bottom, width) only compatible with block element */
+
+/* 
+we use display:inline; to display something "in a line" : Example- we can list(li) in a line */
+/* (marging-top, margin-bottom, width) do not work because elements are not block element */
+
+#list-1 li{
+    border: 2px solid crimson;
+    display: inline;
+    padding: 30px;
+    /* marging-top:500px; */
+    /* margin-bottom: 900px; */
+    margin-right: 50px;
+    /* width: 600px; */
+    
+}
+
+.img1{
+    border:2px solid red;
+    width: 200px;
+    margin: 30px auto;
+
+}
+/* block element holei margin left right e auto nite parbe. jodi left right e ter block na thake taile kemne measure korbe?? thakle to meause korbe. width er concept o same */
+.img2{
+    border:2px solid red;
+    display: block;
+    width: 200px;
+    margin: 30px auto;
+
+}
+
+#list-2 li{
+    border: 2px solid crimson;
+    display: inline block;
+    margin-top: 40px;
+    width: 500px;
+}
+
+div p{
+    border: 1px solid crimson;
+    display: inline-block;
+    margin: 30px auto;
+    width: 300px;
+}
+
+/* display: none; use for hide something */
