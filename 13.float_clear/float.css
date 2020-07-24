@@ -1,0 +1,15 @@
+.first-pic{
+    float: right;
+}
+.first-para{
+    clear: right;
+}
+.second-pic-1{
+    float: left;
+}
+.second-pic-2{
+    float: right;
+}
+.second-para{
+    clear: both;
+}
