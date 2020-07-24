@@ -1,0 +1,22 @@
+/*This is a Comment*/
+
+h1,h2,h3,span{
+    color: blue;
+}
+
+
+p{
+    color: crimson;
+}
+
+/* .my-class{
+    color: green;
+}
+
+#info{
+    color: green;
+} */
+
+#info, .my-class{
+    color: green;
+}
