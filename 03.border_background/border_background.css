@@ -1,0 +1,54 @@
+
+.my-class{
+    border-width: 2px;
+    border-style: solid;
+    border-color: green;
+    border-radius: 10px;
+}
+#myid{
+    border: 2px solid crimson;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-align: center;
+}
+.last-div{
+    background-color: grey;
+    border: 2px solid red;
+    background-image: url("Bird.jpg");
+    height: 500px;
+}
+
+.last-div-2{
+    background-color: grey;
+    border: 2px solid red;
+    background-image: url("Bird.jpg");
+    background-repeat: repeat-x;
+    height: 500px;
+}
+
+.last-div-3{
+    background-color: grey;
+    border: 2px solid red;
+    background-image: url("Bird.jpg");
+    background-repeat: repeat-y;
+    height: 500px;
+}
+
+.last-div-4{
+    background-color: grey;
+    border: 2px solid red;
+    background-image: url("Bird.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+
+
+.last-div-5{
+    background-color: grey;
+    border: 2px solid red;
+    background-image: url("Bird.jpg");
+    background-repeat: no-repeat;
+    background-position: 200px 200px ;
+    height: 500px;
+}
