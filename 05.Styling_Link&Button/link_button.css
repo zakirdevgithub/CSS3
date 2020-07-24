@@ -1,0 +1,36 @@
+.container{
+    border: 2px solid crimson;
+    padding: 30px;
+    margin: auto;
+    width: 500px;
+    background-color: rgb(233, 237, 240);
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    background-color: darkorange;
+    color: deeppink;
+    border: darkorange;
+}
+.btn{
+    border: 1px solid royalblue;
+    border-radius: 30px;
+    background-color: rgb(51, 169, 228);
+    font-size: 20px;
+    font-weight: 500;
+   font-weight: bolder;
+    padding: 10px;
+
+}
+.btn:hover{
+    background-color: seashell;
+    border: 1px solid seashell;
+    color: darkblue;
+
+}
+
+.btn:active{
+    background-color: rgb(29, 6, 243);
+    
+}
