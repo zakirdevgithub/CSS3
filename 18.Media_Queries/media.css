@@ -1,0 +1,40 @@
+div{
+    background-color: crimson;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    display: none;
+}
+
+@media (max-width:320px){
+
+    .box1{
+        background-color: crimson;
+        color: white;
+        font-size: 100px;
+        text-align: center;
+        display: block;
+    }
+}
+
+
+@media (min-width:320px) and (max-width:768px){
+
+    .box2{
+        background-color: black;
+        color: white;
+        font-size: 100px;
+        text-align: center;
+        display: block;
+    }
+
+}
+@media (min-width: 768px){
+    .box4{
+        background-color: red;
+        color: white;
+        font-size: 100px;
+        text-align: center;
+        display: block;
+    }
+}
