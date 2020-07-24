@@ -1,0 +1,19 @@
+:root{
+    --myColor:cyan;
+    --danger-color: red;
+    --item-color: lime;
+}
+
+.container{
+    border: 1px solid black;
+    background-color: var(--myColor);
+    display: flex;
+
+}
+.box{
+    border: 1px solid var(--danger-color) ;
+    height: 100px;
+    width: 100px;
+    margin: 10px 10px;
+    background-color: var(--item-color) ;
+}
