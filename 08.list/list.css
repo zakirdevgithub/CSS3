@@ -1,0 +1,5 @@
+ul{
+    list-style-image:url("computer.png");
+    /* list-style-position: inside; */
+    list-style-position: outside;
+}
